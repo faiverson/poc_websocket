@@ -5,6 +5,7 @@ namespace App\GraphQL\Subscriptions;
 use App\Models\Post;
 use GraphQL\Type\Definition\ResolveInfo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Nuwave\Lighthouse\Schema\Types\GraphQLSubscription;
 use Nuwave\Lighthouse\Subscriptions\Subscriber;
 use Nuwave\Lighthouse\Support\Contracts\GraphQLContext;

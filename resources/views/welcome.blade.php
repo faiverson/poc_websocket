@@ -87,6 +87,7 @@
                 <div class="links">
                     <a href="/laravel-websockets">Websocket Dashboard</a>
                     <a href="/graphql-playground">UI Tool</a>
+                    <a href="http://localhost:3000">Lighthouse Dashboard</a>
                 </div>
             </div>
         </div>

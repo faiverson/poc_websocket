@@ -12,6 +12,7 @@
         "bensampo/laravel-enum": "^1.29",
         "beyondcode/laravel-websockets": "^1.3",
         "fideloper/proxy": "^4.0",
+        "fruitcake/laravel-cors": "^1.0",
         "laravel/framework": "^6.2",
         "laravel/tinker": "^2.0",
         "mll-lab/laravel-graphql-playground": "^2.0",

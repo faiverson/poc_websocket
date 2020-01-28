@@ -9,15 +9,24 @@
 
 ## About POC Websocket
 
-You need to setup a database.
+A demo (Proof of concept) to merge websocket package with Lighthouse since this is prepare to work with Pusher. 
+Also there is not example about how to work with Apollo Client.
+
+
+## Get Started
+You need to setup a database (like sqlite).
 The you can run:
 
 `php artisan migrate --seed`
-
 `php artisan serve --port=9001 --host=localhost`
-
 `php artisan websocket:serve --port=6003`
 
+The you need to compile the UI:
+`cd apollo-client`
+`npm install`
+`yarn start`
+
+In the menu you will find the websocket dashboard example and access to
 
 Some examples to use in the GraphQl Playground:
 ```graphql

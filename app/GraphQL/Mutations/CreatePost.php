@@ -19,6 +19,10 @@ class CreatePost
      */
     public function __invoke($rootValue, array $args, GraphQLContext $context, ResolveInfo $resolveInfo)
     {
-        return Post::find(1);
+        $post = Post::create([
+            'title' => $args['post'],
+            'task_id' => 1,
+        ]);
+        return $post;
     }
 }

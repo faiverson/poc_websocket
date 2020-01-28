@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('lighthouse/broadcast', function (\Illuminate\Http\Request $request, \BeyondCode\LaravelWebSockets\Apps\AppProvider $apps) {
+    return view('lighthouse', [
+        'apps' => $apps->all(),
+        'port' => config('websockets.dashboard.port'),
+    ]);
+});

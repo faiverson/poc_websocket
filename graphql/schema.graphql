@@ -18,7 +18,8 @@ type User {
 }
 
 type Post {
-    body: String
+    id: Int
+    title: String
 }
 
 type Subscription {
