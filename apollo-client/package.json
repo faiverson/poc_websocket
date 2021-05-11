@@ -45,7 +45,7 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "extract-react-intl-messages": "^2.3.5",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "mobx-devtools-mst": "^0.9.21",
     "prop-types": "^15.7.2",
     "resolve-url-loader": "^2.3.1",
